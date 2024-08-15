@@ -1,0 +1,31 @@
+/* Categories.css */
+.nav-link {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #ff5722; /* Change to your desired hover color */
+  }
+  
+  .vehicle-image {
+    width: 60%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s;
+  }
+  
+  .vehicle-image:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+  
+  .hover-button {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .hover-button:hover {
+    background-color: #ff5722; /* Change to your desired hover color */
+    color: white;
+  }
+  
